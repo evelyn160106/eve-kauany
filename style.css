@@ -1,8 +1,11 @@
-body{
-    background-color: rgb(243, 240, 255);
-    color: blueviolet;
+@import url("styles/header.css");
+
+
+:root {
+    --cor-de-fundo: #ebecee;
+    --branco: #FFFFFF;
 }
 
-.cabeçalhos {
-
+body {
+    background-color: var(--cor-de-fundo);
 }
